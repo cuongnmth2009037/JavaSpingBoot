@@ -14,6 +14,7 @@ import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/api/v1/products")
+@CrossOrigin("*")
 @Validated
 public class ProductApi {
     @Autowired
